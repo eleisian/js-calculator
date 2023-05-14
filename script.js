@@ -83,8 +83,8 @@ function calculate() {
   if (result === Infinity || result === -Infinity) {
     const img = document.createElement('img');
     img.src = './CheemsOG.png';
-    img.width = 25;
-	img.height = 25;
+    img.width = 100;
+	img.height = 100;
     display.innerHTML = '';
     display.appendChild(img);
     return;
